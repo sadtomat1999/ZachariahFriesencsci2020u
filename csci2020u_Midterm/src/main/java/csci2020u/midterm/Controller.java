@@ -63,7 +63,7 @@ public class Controller implements Initializable {
         document.getDocumentElement().normalize();
 
         NodeList list = document.getElementsByTagName("student");
-        
+
 
     }
 

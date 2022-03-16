@@ -1,0 +1,1 @@
+to run, open in Intellij, add new run configuration, select gradle, and as runtime operataions input "run". You should now be able to run the program.
