@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.midterm.Controller">
+   <children>
+      <Label layoutX="286.0" layoutY="115.0" text="About" />
+      <Button layoutX="37.0" layoutY="342.0" mnemonicParsing="false" onAction="#toMidterm" text="Back to menu">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
