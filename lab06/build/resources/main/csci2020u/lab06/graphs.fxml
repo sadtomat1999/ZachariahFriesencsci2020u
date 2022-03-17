@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.lab06.Controller">
+   <children>
+      <BarChart fx:id="bar_Chart">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <PieChart id="pie_Colors" fx:id="pie_Chart" layoutX="514.0" style="-fx-background-color: colour;" styleClass="PieColoursClass" />
+   </children>
+</AnchorPane>
