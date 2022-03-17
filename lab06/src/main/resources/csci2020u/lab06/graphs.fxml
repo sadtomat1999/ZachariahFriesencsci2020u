@@ -5,7 +5,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csci2020u.lab06.Controller">
    <children>
-      <BarChart fx:id="bar_Chart">
+      <BarChart fx:id="bar_Chart" stylesheets="@barStyle.css">
         <xAxis>
           <CategoryAxis side="BOTTOM" />
         </xAxis>
@@ -13,6 +13,6 @@
           <NumberAxis side="LEFT" />
         </yAxis>
       </BarChart>
-      <PieChart id="pie_Colors" fx:id="pie_Chart" layoutX="514.0" style="-fx-background-color: colour;" styleClass="PieColoursClass" />
+      <PieChart fx:id="pie_Chart" layoutX="514.0" stylesheets="@pieStyle.css" />
    </children>
 </AnchorPane>
